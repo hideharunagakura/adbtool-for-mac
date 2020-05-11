@@ -17,3 +17,10 @@ $ ./apkinstall.sh <path_to_apk>
 $ ./deviceowner.sh <component>
 ```
 
+### pulltraces.sh
+デバイスからトレース情報を取得します。  
+トレース情報は ANR が発生すると保存されます。
+```
+$ ./pulltraces.sh
+```
+
