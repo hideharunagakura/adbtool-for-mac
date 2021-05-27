@@ -19,6 +19,13 @@ $ ./apkinstall.sh <path_to_apk>
 $ ./deviceowner.sh <component>
 ```
 
+### devices.sh
+
+接続済みデバイスのリストを取得します。
+```
+$ ./devices.sh
+```
+
 ### pulltraces.sh
 
 デバイスからトレース情報を取得します。  
