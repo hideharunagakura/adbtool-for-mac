@@ -11,6 +11,13 @@ A simple script using adb for Mac.
 $ ./apkinstall.sh <path_to_apk>
 ```
 
+### connect.sh
+
+ IP アドレスを使用して、デバイスに接続します。
+ ```
+ $ ./connect.sh <device_ip_address>
+ ```
+
 ### deviceowner.sh
 
 アクティブな管理者として設定し、そのパッケージをデバイスオーナーとして設定します。  
