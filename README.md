@@ -1,4 +1,4 @@
-# adb Tools for Mac
+# adb tools for Mac
 
 A simple script using adb for Mac.
 
@@ -20,8 +20,7 @@ $ ./apkinstall.sh <path_to_apk>
 
 ### deviceowner.sh
 
-アクティブな管理者として設定し、そのパッケージをデバイスオーナーとして設定します。  
-パッケージ名/デバイスアドミンを実装したクラス名を `component` に指定します。
+アクティブな管理者として設定し、そのパッケージをデバイスオーナーとして設定します。パッケージ名/デバイスアドミンを実装したクラス名を `component` に指定します。
 ```
 $ ./deviceowner.sh <component>
 ```
@@ -35,8 +34,7 @@ $ ./devices.sh
 
 ### pulltraces.sh
 
-デバイスからトレース情報を取得します。  
-Android では、ANR が発生するとトレース情報が保存されます。
+デバイスからトレース情報を取得します。Android では、ANR が発生するとトレース情報が保存されます。
 ```
 $ ./pulltraces.sh
 ```
